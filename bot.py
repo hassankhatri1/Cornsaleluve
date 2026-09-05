@@ -20,7 +20,7 @@ from telegram.ext import (
 # ============================================================
 # CONFIGURATION — preserved from the existing project
 # ============================================================
-BOT_TOKEN = "8220847616:AAGU5EkUygH-MKAdSIxv6qCpTmYtV6EFRwA"  # Set your BotFather token here; no environment variable is used.
+BOT_TOKEN = "8931013098:AAEDAtSwjKxVbWRhA_fKk1KOzjyzKPoYX8I"  # Set your BotFather token here; no environment variable is used.
 ADMIN_ID = 8239453740
 # Multiple-admin support. Keep the existing admin ID and optionally add IDs via ADMIN_IDS=1,2,3.
 ADMIN_IDS = {ADMIN_ID}
