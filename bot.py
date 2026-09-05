@@ -20,7 +20,7 @@ from telegram.ext import (
 # ============================================================
 # CONFIGURATION — preserved from the existing project
 # ============================================================
-BOT_TOKEN = "8802749033:AAFNzsQHIgMKJEKuInmKr-NZO6Kzz-tXqZo"  # Set your BotFather token here; no environment variable is used.
+BOT_TOKEN = "8848838995:AAHfSAEzeVISIHo77IBgR66UsLhY_gO8zMA"  # Set your BotFather token here; no environment variable is used.
 ADMIN_ID = 8239453740
 # Multiple-admin support. Keep the existing admin ID and optionally add IDs via ADMIN_IDS=1,2,3.
 ADMIN_IDS = {ADMIN_ID}
@@ -37,7 +37,7 @@ logger = logging.getLogger(__name__)
 PLAN_NAME, PLAN_PRICE, UPI_ID, CHANNEL_LINK, DEMO_MEDIA, WELCOME_IMAGE, WELCOME_TEXT, BROADCAST_CONTENT, REJECTION_REASON, EDIT_PLAN_NAME, EDIT_PLAN_PRICE, DB_IMPORT, CHOOSE_PHOTO, PRO_PHOTO, USER_SEARCH, WELCOME_VIDEO, WELCOME_VIDEOS = range(17)
 
 DEFAULT_WELCOME = "💎 Welcome to our Premium Service!"
-LIFETIME_DAYS = 36500
+LIFETIME_DAYS = 365
 
 # Fallback conversation routing. This keeps admin setup buttons working even if
 # a deployment has an older ConversationHandler callback dispatch behavior.
