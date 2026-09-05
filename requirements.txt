@@ -1,0 +1,2 @@
+python-telegram-bot[job-queue]==22.8
+qrcode[pil]>=7.4,<9
