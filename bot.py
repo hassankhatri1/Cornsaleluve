@@ -20,7 +20,7 @@ from telegram.ext import (
 # ============================================================
 # CONFIGURATION — preserved from the existing project
 # ============================================================
-BOT_TOKEN = "8848838995:AAHfSAEzeVISIHo77IBgR66UsLhY_gO8zMA"  # Set your BotFather token here; no environment variable is used.
+BOT_TOKEN = ""  # Set your BotFather token here; no environment variable is used.
 ADMIN_ID = 8239453740
 # Multiple-admin support. Keep the existing admin ID and optionally add IDs via ADMIN_IDS=1,2,3.
 ADMIN_IDS = {ADMIN_ID}
@@ -32,7 +32,7 @@ DB_FILE = "bot.sqlite"
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 logger = logging.getLogger(__name__)
-
+8220847616:AAGU5EkUygH-MKAdSIxv6qCpTmYtV6EFRwA
 # Conversation states. No deleted/stale plan states are referenced.
 PLAN_NAME, PLAN_PRICE, UPI_ID, CHANNEL_LINK, DEMO_MEDIA, WELCOME_IMAGE, WELCOME_TEXT, BROADCAST_CONTENT, REJECTION_REASON, EDIT_PLAN_NAME, EDIT_PLAN_PRICE, DB_IMPORT, CHOOSE_PHOTO, PRO_PHOTO, USER_SEARCH, WELCOME_VIDEO, WELCOME_VIDEOS = range(17)
 
